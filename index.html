@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CrystalSmash</title>
+</head>
+<body>  
+    <div class="game">
+        <div class="container">
+            <div class="blue game-button"></div>
+            <div class="green game-button"></div>
+            <div class="red game-button"></div>
+            <div class="yellow game-button"></div>
+        </div>
+        <div class="toggle-mode hidden">
+            <p>Attention!</p>
+        </div>
+        <div class="game-over hidden">
+            <p>Game Over</p>
+            <button id="menu-button">Menu</button>
+        </div>
+        <div class="menu">
+            <p>Genius</p>
+            <button id="start">Start</button>
+        </div>
+    </div>
+
+    <audio id='audio-blue' src="./sound/do2.wav"></audio>
+    <audio id='audio-green' src="./sound/mi2.wav"></audio>
+    <audio id='audio-red' src="./sound/sol2.wav"></audio>
+    <audio id='audio-yellow' src="./sound/si2.wav"></audio>
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
